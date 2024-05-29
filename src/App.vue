@@ -1,15 +1,15 @@
 <template>
  
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <game-panel msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import GamePanel from './components/GamePanel.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    GamePanel
   }
 }
 </script>
